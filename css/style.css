@@ -52,7 +52,7 @@ body {
       color: #7575a3;
   }
   .carousel-indicators li {
-      border-color: ##7575a3;
+      border-color: #7575a3;
   }
   .carousel-indicators li.active {
       background-color: #7575a3;
@@ -76,13 +76,13 @@ body {
       box-shadow: 5px 0px 40px rgba(0,0,0, .2);
   }
   .panel-footer .btn:hover {
-      border: 1px solid #f4511e;
+      border: 1px solid #7575a3;
       background-color: #fff !important;
       color: #7575a3;
   }
   .panel-heading {
       color: #fff !important;
-      background-color: #f4511e !important;
+      background-color: #7575a3 !important;
       padding: 25px;
       border-bottom: 1px solid transparent;
       border-top-left-radius: 0px;
@@ -120,7 +120,7 @@ body {
       color: #fff !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
-      color: #f4511e !important;
+      color: #7575a3 !important;
       background-color: #fff !important;
   }
   .navbar-default .navbar-toggle {
