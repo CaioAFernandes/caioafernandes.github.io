@@ -43,8 +43,8 @@
     <div class="row">
       <div class="col-sm-8">
         <h2>Sobre mim</h2><br>
-        <h4>Sou um jovem de 21 anos, estou concluindo minha primeira formação de nível superior, atualmente eu gosto de aprender sobre novas tecnologias, assistir séries e jogar video game quando possuo tempo livre.<br>No momento aplico meu tempo no desenvolvimento do meu Trabalho de Conclusão de Curso.</h4><br>
-        <p>Eu procuro agir de maneira em que não faça algo que possa envengonhar a mim. Durante a minha experiência de vida pude aprender valores como<strong> respeito, honra, responsabilidade, resiliência.</strong><br>Acredito nesses valores e que são possuem importância em todos os aspectos da vida.</p>
+        <h4>Tenho 21 anos estou concluindo a minha primeira formação de nível superior, e espero continuar me qualificando cada vez mais.  Atualmente dedico grande parte do meu tempo estudando sobre novas tecnologias e focando no desenvolvimento do meu trabalho de conclusão de curso.<br>No tempo livre que me resta meus hobbies são ver séries e jogar videogame.</h4><br>
+        <p>Durante a minha experiência de vida pude aprender valores como<strong> respeito, honra, responsabilidade, resiliência.</strong><br>Acredito nesses valores e que são possuem importância em todos os aspectos da vida.</p>
         <!--<br><button class="btn btn-default btn-lg">Get in Touch</button>-->
       </div>
       <div class="col-sm-4">
@@ -63,7 +63,7 @@
       <div class="col-sm-8">
         <h2>Objetivos</h2><br>
         <h4>Atuar como programador e ou analista de sistemas.</h4>
-        <h4>Continuar meus estudos na área de tecnologia.</h4>
+        <h4>Buscar aprofundamento do meu conhecimento na área de tecnologia e suas aplicações.</h4>
       </div>
     </div>
   </div>
@@ -79,7 +79,6 @@
         <h4>Análise e Desenvolvimento de Sistemas - <span style="color: #c2c2d6">Concluindo na Fatec Zona Leste.</span></h4>
       </div>
     </div>
-    <hr>
     <div class="row">
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-book logo-small" style="font-size: 88px;"></span>
@@ -90,7 +89,7 @@
       </div>
     </div> 
     <hr><br>
-    <div class="row slideanim">
+    <div class="row slideanim text-center">
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-king logo-small"></span>
         <h4>Java SE</h4>
@@ -107,8 +106,8 @@
         <p>Node JS é algo com que tenho interesse e este venho estudado por conta própria realizando projetos pessoais.</p>
       </div>
     </div>
-    <br><br>
-    <div class="row slideanim">
+    <br>
+    <div class="row slideanim text-center">
       <div class="col-sm-6">
         <span class="glyphicon glyphicon-knight logo-small"></span>
         <h4>HTML 5 / CSS 3</h4>
@@ -121,9 +120,53 @@
       </div>
     </div>
   </div>
-
+  <!-- Meus cursos-->
+  <div id="cursos" class="container-fluid text-center bg-grey">
+    <h2>Atividades Extra Curriculares</h2>
+    <div id="atividades" class="carousel slide" data-ride="carousel">
+      <!-- Indicadores -->
+      <ol class="carousel-indicators">
+        <li data-target="#atividades" data-slide-to="0" class="active"></li>
+        <li data-target="#atividades" data-slide-to="1"></li>
+        <li data-target="#atividades" data-slide-to="2"></li>
+        <li data-target="#atividades" data-slide-to="3"></li>
+        <li data-target="#atividades" data-slide-to="4"></li>
+        <li data-target="#atividades" data-slide-to="5"></li>
+      </ol>
+      <!-- Adicionar conteudo -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active thumbnail">
+          <img src="images/html5.png">
+        </div>
+        <div class="item thumbnail">
+          <img src="images/javascript.png">
+        </div>
+        <div class="item thumbnail">
+          <img src="images/nodejs.png">
+        </div>
+        <div class="item thumbnail">
+          <img src="images/javaee.png">
+        </div>
+        <div class="item thumbnail">
+          <img src="images/fundamentos.png">
+        </div>
+        <div class="item thumbnail">
+          <img src="images/itil.png">
+        </div>
+      </div>
+      <!-- Controles  do carrousel -->
+      <a class="left carousel-control" href="#atividades" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+      </a>
+      <a class="right carousel-control" href="#atividades" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+  </div>
 <!-- Container (Portfolio Section) 
-  <div id="portfolio" class="container-fluid text-center bg-grey">
+  <div id="portfolio" class="container-fluid text-center">
     <h2>PORTIFÓLIO</h2><br>
     <h4>What we have created</h4>
     <div class="row text-center slideanim">
@@ -153,7 +196,7 @@
   </div>
 -->
   <!--Área de Citações-->
-  <div id="citacoes" class="container-fluid text-center bg-grey">
+  <div id="citacoes" class="container-fluid text-center">
     <h2>Citações de Pessoas que Admiro</h2>
     <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
       <!-- Indicadores -->
@@ -161,6 +204,7 @@
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="myCarousel" data-slide-to="3"></li>
       </ol>
       <!-- Adicionar conteudo -->
       <div class="carousel-inner" role="listbox">
@@ -175,6 +219,9 @@
         </div>
         <div class="item">
           <h4><strong>"Mede o que é mensurável e torna mensurável o que não o é."</strong><br><span>Galileu Galilei</span></h4>
+        </div>
+        <div class="item">
+          <h4><strong>"Todo meio é ele próprio um fim."</strong><br><span>Émile Durkheim</span></h4>
         </div>
       </div>
       <!-- Controles  do carrousel -->
@@ -193,9 +240,9 @@
   <div id="contact" class="text-center container-fluid">
     <h2 class="text-center">CONTATO</h2>
     <div class="jumbotron">
-        <p class="lead"><span class="glyphicon glyphicon-map-marker"></span> São Paulo, SP</p>
-        <p class="lead"><span class="glyphicon glyphicon-envelope"></span> caio.fernandes2@fatec.sp.gov.br</p>
-      </div>
+      <p class="lead"><span class="glyphicon glyphicon-map-marker"></span> São Paulo, SP</p>
+      <p class="lead"><span class="glyphicon glyphicon-envelope"></span> caio.fernandes2@fatec.sp.gov.br</p>
+    </div>
   </div>
   <!-- Área do Rodapé -->
   <footer class="container-fluid text-center">

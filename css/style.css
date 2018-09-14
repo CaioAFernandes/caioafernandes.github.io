@@ -18,8 +18,7 @@ body {
       margin-bottom: 30px;
   }  
   .jumbotron {
-
-      background-color: #3d3d5c;/*#7575a3*/
+      background-color: #3d3d5c;
       color: #fff;
       padding: 100px 25px;
       font-family: Montserrat, sans-serif;
@@ -44,9 +43,9 @@ body {
       border-radius: 0;
   }
   .thumbnail img {
-      width: 100%;
-      height: 100%;
-      margin-bottom: 10px;
+      width: 600px;
+      height: 400px;
+      margin-bottom: 30px;
   }
   .carousel-control.right, .carousel-control.left {
       background-image: none;
@@ -69,7 +68,7 @@ body {
       font-style: normal;
   }
   .panel {
-      border: 1px solid #f4511e; 
+      border: 1px solid #3d3d5c; 
       border-radius:0 !important;
       transition: box-shadow 0.5s;
   }
