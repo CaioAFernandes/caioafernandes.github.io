@@ -132,7 +132,7 @@ body {
       margin-bottom: 20px;
       color: #3d3d5c;
   }
-  .slideanim {visibility:hidden;}
+  .slideanim {visibility: hidden;}
   .slide {
       animation-name: slide;
       -webkit-animation-name: slide;
@@ -163,7 +163,7 @@ body {
   @media screen and (max-width: 768px) {
     .col-sm-4 {
       text-align: center;
-      margin: 25px 0;
+      margin: 10px 0;
     }
     .btn-lg {
         width: 100%;
