@@ -18,7 +18,7 @@ body {
       margin-bottom: 30px;
   }  
   .jumbotron {
-      background-color: #3d3d5c;
+      background-color: #4f0000;
       color: #fff;
       padding: 100px 25px;
       font-family: Montserrat, sans-serif;
@@ -34,6 +34,7 @@ body {
     grid-auto-rows: auto;
     width: 35px;
     height: 35px;
+    color: #3d3d5c;
   }
   .logo-small {
       color:#3d3d5c;
@@ -55,13 +56,13 @@ body {
   }
   .carousel-control.right, .carousel-control.left {
       background-image: none;
-      color: #3d3d5c;
+      color: #4f0000;
   }
   .carousel-indicators li {
-      border-color: #3d3d5c;
+      border-color: #4f0000;
   }
   .carousel-indicators li.active {
-      background-color: #3d3d5c;
+      background-color: #4f0000;
   }
   .item h4 {
       font-size: 19px;
@@ -74,7 +75,7 @@ body {
       font-style: normal;
   }
   .panel {
-      border: 1px solid #3d3d5c; 
+      border: 1px solid #4f0000; 
       border-radius:0 !important;
       transition: box-shadow 0.5s;
   }
@@ -82,13 +83,13 @@ body {
       box-shadow: 5px 0px 40px rgba(0,0,0, .2);
   }
   .panel-footer .btn:hover {
-      border: 1px solid #3d3d5c;
+      border: 1px solid #4f0000;
       background-color: #fff !important;
-      color: #3d3d5c;
+      color: #4f0000;
   }
   .panel-heading {
       color: #fff !important;
-      background-color: #3d3d5c !important;
+      background-color: #4f0000 !important;
       padding: 25px;
       border-bottom: 1px solid transparent;
       border-top-left-radius: 0px;
@@ -108,12 +109,12 @@ body {
   }
   .panel-footer .btn {
       margin: 15px 0;
-      background-color: #3d3d5c;/*99e265 514fcc*/
+      background-color: #4f0000;/*99e265 514fcc*/
       color: #fff;
   }
   .navbar {
       margin-bottom: 0;
-      background-color: #3d3c5c;/* 677987*/
+      background-color: #4f0000;/* 677987*/
       z-index: 9999;
       border: 0;
       font-size: 12px !important;
@@ -127,7 +128,7 @@ body {
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
       color: #fff !important;
-      background-color: #4f0000 !important;
+      background-color: #3d3d5c !important;
   }
   .navbar-default .navbar-toggle {
       border-color: transparent;
@@ -174,6 +175,12 @@ body {
   }
   @media screen and (max-width: 768px) {
     .col-sm-4 {
+      font-size: 20px;
+      text-align: center;
+      margin: 10px 0;
+    }
+    .col-sm-6 {
+      font-size: 20px;
       text-align: center;
       margin: 10px 0;
     }
