@@ -1,93 +1,96 @@
+html {
+    box-sizing: border-box
+}
 body {
       font: 400 20px Lato, sans-serif;
       line-height: 1.8;
       color: #818181;
-  }
-  h2 {
+}
+h2 {
       font-size: 24px;
       text-transform: uppercase;
       color: #303030;
       font-weight: 600;
       margin-bottom: 30px;
-  }
-  h4 {
+}
+h4 {
       font-size: 19px;
       line-height: 1.375em;
       color: #303030;
       font-weight: 400;
       margin-bottom: 30px;
-  }  
-  .jumbotron {
+}  
+.jumbotron {
       background-color: #4f0000;
       color: #fff;
       padding: 100px 25px;
       font-family: Montserrat, sans-serif;
-  }
-  .container-fluid {
+}
+.container-fluid {
       padding: 60px 50px;
-  }
-  .bg-grey {
+}
+.bg-grey {
       background-color: #f6f6f6;
-  }
-  .logo-brand{
+}
+.logo-brand{
     margin-bottom: 0;
     grid-auto-rows: auto;
     width: 35px;
     height: 35px;
     color: #3d3d5c;
-  }
-  .logo-small {
+}
+.logo-small {
       color:#3d3d5c;
       font-size: 50px;
-  }
-  .logo {
+}
+.logo {
       color: #3d3d5c;
       font-size: 200px;
-  }
-  .thumbnail {
+}
+.thumbnail {
       padding: 0 0 15px 0;
       border: none;
       border-radius: 0;
-  }
-  .thumbnail img {
+}
+.thumbnail img {
       width: 600px;
       height: 500px;
       margin-bottom: 30px;
-  }
-  .carousel-control.right, .carousel-control.left {
+}
+.carousel-control.right, .carousel-control.left {
       background-image: none;
       color: #4f0000;
-  }
-  .carousel-indicators li {
+}
+.carousel-indicators li {
       border-color: #4f0000;
-  }
-  .carousel-indicators li.active {
+}
+.carousel-indicators li.active {
       background-color: #4f0000;
-  }
-  .item h4 {
+}
+.item h4 {
       font-size: 19px;
       line-height: 1.375em;
       font-weight: 400;
       font-style: italic;
       margin: 70px 0;
   }
-  .item span {
+.item span {
       font-style: normal;
-  }
-  .panel {
+}
+.panel {
       border: 1px solid #4f0000; 
       border-radius:0 !important;
       transition: box-shadow 0.5s;
-  }
-  .panel:hover {
+}
+.panel:hover {
       box-shadow: 5px 0px 40px rgba(0,0,0, .2);
-  }
-  .panel-footer .btn:hover {
+}
+.panel-footer .btn:hover {
       border: 1px solid #4f0000;
       background-color: #fff !important;
       color: #4f0000;
-  }
-  .panel-heading {
+}
+.panel-heading {
       color: #fff !important;
       background-color: #4f0000 !important;
       padding: 25px;
@@ -96,23 +99,23 @@ body {
       border-top-right-radius: 0px;
       border-bottom-left-radius: 0px;
       border-bottom-right-radius: 0px;
-  }
-  .panel-footer {
+}
+.panel-footer {
       background-color: white !important;
-  }
-  .panel-footer h3 {
+}
+.panel-footer h3 {
       font-size: 32px;
-  }
-  .panel-footer h4 {
+}
+.panel-footer h4 {
       color: #aaa;
       font-size: 14px;
-  }
-  .panel-footer .btn {
+}
+.panel-footer .btn {
       margin: 15px 0;
       background-color: #4f0000;/*99e265 514fcc*/
       color: #fff;
-  }
-  .navbar {
+}
+.navbar {
       margin-bottom: 0;
       background-color: #4f0000;/* 677987*/
       z-index: 9999;
@@ -122,33 +125,33 @@ body {
       letter-spacing: 4px;
       border-radius: 0;
       font-family: Montserrat, sans-serif;
-  }
-  .navbar li a, .navbar .navbar-brand {
+}
+.navbar li a, .navbar .navbar-brand {
       color: #fff !important;
-  }
-  .navbar-nav li a:hover, .navbar-nav li.active a {
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
       color: #fff !important;
       background-color: #3d3d5c !important;
-  }
-  .navbar-default .navbar-toggle {
+}
+.navbar-default .navbar-toggle {
       border-color: transparent;
       color: #fff !important;
-  }
-  footer .glyphicon {
+}
+footer .glyphicon {
       font-size: 20px;
       margin-bottom: 20px;
       color: #3d3d5c;
-  }
-  .slideanim {visibility: hidden;}
-  .slidean{visibility: unset;}
-  .slide {
+}
+.slideanim {visibility: hidden;}
+.slidean{visibility: unset;}
+.slide {
       animation-name: slide;
       -webkit-animation-name: slide;
       animation-duration: 1s;
       -webkit-animation-duration: 1s;
       visibility: visible;
-  }
-  @keyframes slide {
+}
+@keyframes slide {
     0% {
       opacity: 0;
       transform: translateY(70%);
@@ -169,42 +172,30 @@ body {
     }
   }
 
-  @media screen and (max-width: 1024px){
-    .slidean{font-size: 130px;}
-    .slideanim{font-size: 130px;}
-    .col-sm-6{font-size: 18px}
-    .col-sm-4{font-size: 18px}
+@media screen and (max-width: 1024px){
+  .slidean{font-size: 130px;}
+  .slideanim{font-size: 130px;}
+
+}
+@media screen and (max-width: 768px) {
+  .slidean{ font-size: 100px }
+  .slideanim{ font-size: 100px }
+  .col-sm-4 {
+      font-size: 18px;
+      text-align: center;
+      margin: 10px 0;
   }
-  @media screen and (max-width: 768px) {
-    .slidean{ font-size: 100px }
-    .slideanim{ font-size: 100px }
-    .col-sm-4 {
+  .col-sm-6 {
       font-size: 18px;
       text-align: center;
       margin: 10px 0;
-    }
-    .col-sm-6 {
-      font-size: 18px;
-      text-align: center;
-      margin: 10px 0;
-    }
-    .btn-lg {
+  }
+  .btn-lg {
         width: 100%;
         margin-bottom: 35px;
-    }
   }
-  @media screen and (max-width: 480px) {
-    .slidean{display: none;}
-    .logo {font-size: 150px;}
-      .col-sm-4 {
-      font-size: 18px;
-      text-align: center;
-      margin: 10px 0;
-    }
-    .col-sm-6 {
-      font-size: 18px;
-      text-align: center;
-      margin: 10px 0;
-    }
-  
-  }
+}
+@media screen and (max-width: 480px) {
+  .slidean{display: none;}
+  .logo {font-size: 150px;}  
+}
