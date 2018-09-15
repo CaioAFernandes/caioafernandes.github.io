@@ -1,9 +1,5 @@
-@font-face{
-  font-family: bariol;
-  src: url(fonts/bariol_regular-webfont.ttf);
-}
 body {
-      font: 400 20px bariol;
+      font: 400 20px Lato, sans-serif;
       line-height: 1.8;
       color: #818181;
   }
