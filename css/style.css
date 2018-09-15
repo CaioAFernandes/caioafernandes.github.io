@@ -172,6 +172,11 @@ footer .glyphicon {
     }
   }
 
+@media screen and (max-width: 2000px){
+  .slidean{font-size: 200px}
+  .slideanim{font-size: 200px}
+}
+
 @media screen and (max-width: 1024px){
   .slidean{font-size: 130px;}
   .slideanim{font-size: 130px;}
