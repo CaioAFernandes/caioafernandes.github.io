@@ -172,15 +172,19 @@ body {
   @media screen and (max-width: 1024px){
     .slidean{font-size: 130px;}
     .slideanim{font-size: 130px;}
+    .col-sm-6{font-size: 18px}
+    .col-sm-4{font-size: 18px}
   }
   @media screen and (max-width: 768px) {
+    .slidean{ font-size: 100px }
+    .slideanim{ font-size: 100px }
     .col-sm-4 {
-      font-size: 20px;
+      font-size: 18px;
       text-align: center;
       margin: 10px 0;
     }
     .col-sm-6 {
-      font-size: 20px;
+      font-size: 18px;
       text-align: center;
       margin: 10px 0;
     }
@@ -188,10 +192,19 @@ body {
         width: 100%;
         margin-bottom: 35px;
     }
-    .slidean{ font-size: 100px }
-    .slideanim{ font-size: 100px }
   }
   @media screen and (max-width: 480px) {
     .slidean{display: none;}
     .logo {font-size: 150px;}
+      .col-sm-4 {
+      font-size: 18px;
+      text-align: center;
+      margin: 10px 0;
+    }
+    .col-sm-6 {
+      font-size: 18px;
+      text-align: center;
+      margin: 10px 0;
+    }
+  
   }
