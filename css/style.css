@@ -133,6 +133,7 @@ body {
       color: #3d3d5c;
   }
   .slideanim {visibility: hidden;}
+  .slidean{visibility: unset;}
   .slide {
       animation-name: slide;
       -webkit-animation-name: slide;
@@ -160,6 +161,11 @@ body {
       -webkit-transform: translateY(0%);
     }
   }
+
+  @media screen and (max-width: 1024px){
+    .slidean{font-size: 130px;}
+    .slideanim{font-size: 130px;}
+  }
   @media screen and (max-width: 768px) {
     .col-sm-4 {
       text-align: center;
@@ -169,9 +175,10 @@ body {
         width: 100%;
         margin-bottom: 35px;
     }
+    .slidean{ font-size: 100px }
+    .slideanim{ font-size: 100px }
   }
   @media screen and (max-width: 480px) {
-    .logo {
-        font-size: 150px;
-    }
+    .slidean{display: none;}
+    .logo {font-size: 150px;}
   }

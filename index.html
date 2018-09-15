@@ -5,6 +5,12 @@
   <title>Caio Alberto Fernandes</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Definindo theme color-->
+  <meta name="theme-color" content="#3d3d5c">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#3d3d5c">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
   <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
@@ -16,28 +22,30 @@
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
   <!-- Menu superior fixo -->
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
-        </button>
-        <a class="navbar-brand" href="#myPage">Caio Fernandes</a>
+  <div id="myMenu" class="container-fluid">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#myPage">Caio Fernandes</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">SOBRE</a></li>
+            <li><a href="#objective">OBJETIVOS</a></li>
+            <li><a href="#formation">FORMAÇÃO</a></li>
+            <li><a href="#courses">EXTRAS</a></li>
+            <li><a href="#citations">CITAÇÕES</a></li>
+            <li><a href="#contact">CONTATO</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#about">SOBRE</a></li>
-          <li><a href="#objective">OBJETIVOS</a></li>
-          <li><a href="#formation">FORMAÇÃO</a></li>
-          <li><a href="#courses">EXTRAS</a></li>
-          <li><a href="#citations">CITAÇÕES</a></li>
-          <li><a href="#contact">CONTATO</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
   <!--Fim do menu -->
   <!-- Sobre mim -->
   <div id="about" class="container-fluid">
@@ -165,8 +173,8 @@
       </a>
     </div>
   </div>
-<!-- Container (Portfolio Section) 
-  <div id="portfolio" class="container-fluid text-center">
+<!-- Meu Poetifolio 
+  <div id="portifolio" class="container-fluid text-center">
     <h2>PORTIFÓLIO</h2><br>
     <h4>What we have created</h4>
     <div class="row text-center slideanim">
@@ -235,7 +243,7 @@
       </a>
     </div>
   </div>
-
+  <!--Fim das citações-->
   <!-- Área de Contato -->
   <div id="contact" class="text-center container-fluid">
     <h2 class="text-center">CONTATO</h2>
@@ -244,12 +252,14 @@
       <p class="lead"><span class="glyphicon glyphicon-envelope"></span> caio.fernandes2@fatec.sp.gov.br</p>
     </div>
   </div>
-  <!-- Área do Rodapé -->
-  <footer class="container-fluid text-center">
-    <a href="#myPage" title="To Top">
-      <span class="glyphicon glyphicon-chevron-up"></span>
-    </a>
-    <p>Análista e Desenvolvedor de Sistemas</a></p>
-  </footer>
+  <div id="myRodape" class="container-fluid">
+    <!-- Área do Rodapé -->
+    <footer class="container-fluid text-center">
+      <a href="#myPage" title="To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+      <p>Análista e Desenvolvedor de Sistemas</a></p>
+    </footer>
+  </div>
 </body>
 </html>
