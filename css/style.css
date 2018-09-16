@@ -42,14 +42,14 @@ h4 {
     grid-auto-rows: auto;
     width: 35px;
     height: 35px;
-    color: #3d3d5c;
+    color: #4f0000;
 }
 .logo-small {
-      color:#3d3d5c;
+      color:#4f0000;
       font-size: 50px;
 }
 .logo {
-      color: #3d3d5c;
+      color: #4f0000;
       font-size: 200px;
 }
 .thumbnail {
@@ -91,13 +91,13 @@ h4 {
       box-shadow: 5px 0px 40px rgba(0,0,0, .2);
 }
 .panel-footer .btn:hover {
-      border: 1px solid #4f0000;
+      border: 1px solid #3d3d5c;
       background-color: #fff !important;
       color: #4f0000;
 }
 .panel-heading {
       color: #fff !important;
-      background-color: #4f0000 !important;
+      background-color: #3d3d5c !important;
       padding: 25px;
       border-bottom: 1px solid transparent;
       border-top-left-radius: 0px;
@@ -117,12 +117,12 @@ h4 {
 }
 .panel-footer .btn {
       margin: 15px 0;
-      background-color: #4f0000;/*99e265 514fcc*/
+      background-color: #3d3d5c;/*99e265 514fcc*/
       color: #fff;
 }
 .navbar {
       margin-bottom: 0;
-      background-color: #4f0000;/* 677987*/
+      background-color: #3d3d5c;/* 677987*/
       z-index: 9999;
       border: 0;
       font-size: 12px !important;
@@ -136,7 +136,7 @@ h4 {
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
       color: #fff !important;
-      background-color: #3d3d5c !important;
+      background-color: #4f0000 !important;
 }
 .navbar-default .navbar-toggle {
       border-color: transparent;
@@ -145,7 +145,7 @@ h4 {
 footer .glyphicon {
       font-size: 20px;
       margin-bottom: 20px;
-      color: #3d3d5c;
+      color: #4f0000;
 }
 .slideanim {visibility: hidden;}
 .slidean{visibility: unset;}
