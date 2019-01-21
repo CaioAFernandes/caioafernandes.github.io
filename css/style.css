@@ -34,7 +34,7 @@ h4 {
 }
 .logo-image{
   width: 48px;
-  height: 48px;
+  height: auto;
 }
 .logo-brand{
     margin-bottom: 0;
