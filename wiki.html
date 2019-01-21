@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="pt">
+<!--Toda informaçãpo contida foi aprovado a disponibilização e exibição por seus respectivos autores-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Caio Alberto Fernandes - Wiki Mangás</title>
+
+    <!--Link de Estilização da galeria-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css'>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js'></script>
+    <link rel="stylesheet" href="css/galery.css">
+    <!--Link de Estilizaçaõ do Menu-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <section>
+        <!-- Menu superior fixo -->
+        <div id="myMenu" class="container-fluid" role="myMenu">
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header" role="myNavbar">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="./index.html">Caio Fernandes</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar" role="myCollapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#about">SOBRE</a></li>
+                            <li><a href="#photos">FOTOS</a></li>
+                            <li><a href="#contacts">CONTATOS</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!--Fim do menu -->
+        <!-- Sobre Projeto -->
+        <div id="about" class="container-fluid" role="about">
+            <div class="row">
+                <div class="col-sm-2">
+                    <span class="glyphicon glyphicon-pushpin logo slidean"></span>
+                </div>
+                <div class="col-sm-10 text-justify">
+                    <h2>Sobre o Projeto Wiki Mangás</h2><br>
+                    <h4>Sistema criado para gerenciar o armazenamento da localização e sittuação sobre mangás.</h4>
+                    <h4>O desenvolvimento foi proposto como projeto na Fatec - ZL, e foi concretizado em parceria com
+                        <strong>Alicia Suemi Yoshida - Analista de Dados, Caio Alberto Fernandes - Full Stack e
+                            Suzana Azevedo Portilho Pinheiro - Front-End.</strong>.
+                    </h4>
+                </div>
+                <div class="col-sm-10">
+                    <h2>Informações Técnicas</h2>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <td>Estrutura</td>
+                                <td>Tipo</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Liguagem de Programação</td>
+                                <td>JEE</td>
+                            </tr>
+                            <tr>
+                                <td>Banco de Dados</td>
+                                <td>SQL Server e MySQL</td>
+                            </tr>
+                            <tr>
+                                <td>Frameworks</td>
+                                <td>Bootstrap</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!--Fim sobre projeto-->
+    </section>
+    <!--Galeria de Fotos-->
+    <section class="container-fluid">
+        <div id="photos" class="swiper-container main-slider loading" role="photos">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" data-swiper-slide-index="0">
+                    <figure class="slide-bgimg" style="background-image:url(images/projetos/wiki/home.jpg)">
+                        <img src="images/projetos/wiki/home.jpg" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Home Visitante</p>
+                        <span class="caption"></span>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="1">
+                    <figure class="slide-bgimg" style="background-image:url(images/projetos/wiki/mangas_visitante.jpg)">
+                        <img src="images/projetos/wiki/mangas_visitante.jpg" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Consulta de Mangás Visitante</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="2">
+                    <figure class="slide-bgimg" style="background-image:url(images/projetos/wiki/autores_visitante.jpg)">
+                        <img src="images/projetos/wiki/autores_visitante.jpg" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Consulta de Autores pelo Visitante</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="3">
+                    <figure class="slide-bgimg" style="background-image:url(images/projetos/wiki/editoras_visitante.jpg)">
+                        <img src="images/projetos/wiki/editoras_visitante.jpg" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Consulta de Editoras pelo Visitante</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="4">
+                    <figure class="slide-bgimg" style="background-image:url(images/projetos/wiki/login.jpg)">
+                        <img src="images/projetos/wiki/login.jpg" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Login Administrador</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="5">
+                    <figure class="slide-bgimg" style="background-image:url(images/projetos/wiki/home_admin.jpg)">
+                        <img src="images/projetos/wiki/home_admin.jpg" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Home Administrador</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="6">
+                    <figure class="slide-bgimg" style="background-image:url(images/projetos/wiki/mangas_admin.jpg)">
+                        <img src="images/projetos/wiki/mangas_admin.jpg" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Consulta de Mangás pelo Administrador</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="7">
+                    <figure class="slide-bgimg" style="background-image:url(images/projetos/wiki/autores_admin.jpg)">
+                        <img src="images/projetos/wiki/autores_admin.jpg">
+                        class="entity-img"/>
+                    </figure>
+                    <div class="content">
+                        <p class="title">Consulta de Autores pelo Administrador</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="8">
+                    <figure class="slide-bgimg" style="background-image:url(images/projetos/wiki/editoras_admin.jpg)">
+                        <img src="images/projetos/wiki/editoras_admin.jpg" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Consulta de Editoras pelo Administrador</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="9">
+                    <figure class="slide-bgimg" style="background-image:url(images/projetos/wiki/cadastro_manga.jpg)">
+                        <img src="images/projetos/wiki/cadastro_manga.jpg" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Cadastro de Mangá pelo Administrador</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="10">
+                    <figure class="slide-bgimg" style="background-image:url(images/projetos/wiki/cadastro_autor.jpg)">
+                        <img src="images/projetos/wiki/cadastro_autor.jpg" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Cadastro de Autor pelo Administrador</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="11">
+                    <figure class="slide-bgimg" style="background-image:url(images/projetos/wiki/cadastro_editora.jpg)">
+                        <img src="images/projetos/wiki/cadastro_editora.jpg" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Cadastro de Editora pelo Administrador</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="12">
+                    <figure class="slide-bgimg" style="background-image:url(images/projetos/wiki/editar_manga.jpg)">
+                        <img src="images/projetos/wiki/editar_manga.jpg" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Alterar Mangá pelo Administrador</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="13">
+                    <figure class="slide-bgimg" style="background-image:url(images/projetos/wiki/editar_autor.jpg)">
+                        <img src="images/projetos/wiki/editar_autor.jpg" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Alterar Autor pelo Administrador</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="14">
+                    <figure class="slide-bgimg" style="background-image:url(images/projetos/wiki/editar_editora.jpg)">
+                        <img src="images/projetos/wiki/editar_editora.jpg" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Alterar Editora pelo Administrador</p>
+                    </div>
+                </div>
+            </div>
+            <!--Buttons navegação -->
+            <div class="swiper-button-prev swiper-button-white"></div>
+            <div class="swiper-button-next swiper-button-white"></div>
+        </div>
+        <!-- Thumbnail navigation -->
+        <div class="swiper-container nav-slider loading">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" data-swiper-slide-index="0">
+                    <figure class="slide-bgimg" style="background-image:url(images/projetos/wiki/home.jpg)">
+                        <img src="images/projetos/wiki/home.jpg" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Home Visitante</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="1">
+                    <figure class="slide-bgimg" style="background-image:url(images/projetos/wiki/mangas_visitante.jpg)">
+                        <img src="images/projetos/wiki/mangas_visitante.jpg" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Consulta de Mangás pelo Visitante</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="2">
+                    <figure class="slide-bgimg" style="background-image:url(images/projetos/wiki/autores_visitante.jpg)">
+                        <img src="images/projetos/wiki/autores_visitante.jpg" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Consulta de Autores pelo Visitante</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="3">
+                    <figure class="slide-bgimg" style="background-image:url(images/projetos/wiki/editoras_visitante.jpg)">
+                        <img src="images/projetos/wiki/editoras_visitante.jpg" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Consulta de Editoras pelo Visitante</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="4">
+                    <figure class="slide-bgimg" style="background-image:url(images/projetos/wiki/login.jpg)">
+                        <img src="images/projetos/wiki/login.jpg" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Login</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="5">
+                    <figure class="slide-bgimg" style="background-image:url(images/projetos/wiki/home_admin.jpg)">
+                        <img src="images/projetos/wiki/home_admin.JPG" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Home Administrador</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="6">
+                    <figure class="slide-bgimg" style="background-image:url(images/projetos/wiki/mangas_admin.jpg)">
+                        <img src="images/projetos/wiki/mangas_admin.JPG" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Consulta de Mangás pelo Administrador</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="7">
+                    <figure class="slide-bgimg" style="background-image:url(images/projetos/wiki/autores_admin.jpg)">
+                        <img src="images/projetos/wiki/autores_admin.JPG" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Consulta de Autores pelo Administrador</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="8">
+                    <figure class="slide-bgimg" style="background-image:url(images/projetos/wiki/editoras_admin.jpg)">
+                        <img src="images/projetos/wiki/editoras_admin.JPG" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Consulta de Editoras pelo Administrador</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="9">
+                    <figure class="slide-bgimg" style="background-image:url(images/projetos/wiki/editar_manga.jpg)">
+                        <img src="images/projetos/wiki/editar_manga.JPG" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Alterar Mangá</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="10">
+                    <figure class="slide-bgimg" style="background-image:url(images/projetos/wiki/editar_autor.jpg)">
+                        <img src="images/projetos/wiki/editar_autor.jpg" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Alterar Autor</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="11">
+                    <figure class="slide-bgimg" style="background-image:url(images/projetos/wiki/editar_editora.jpg)">
+                        <img src="images/projetos/wiki/editar_editora.jpg" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Alterar Editora</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="12">
+                    <figure class="slide-bgimg" style="background-image:url(images/projetos/wiki/cadastro_manga.jpg)">
+                        <img src="images/projetos/wiki/login.jpg" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Cadastro de Mangá</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="13">
+                    <figure class="slide-bgimg" style="background-image:url(images/projetos/wiki/cadastro_autor.jpg)">
+                        <img src="images/projetos/wiki/cadastro_autor.jpg" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Cadastro de Autor</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="14">
+                    <figure class="slide-bgimg" style="background-image:url(images/projetos/wiki/cadastro_editora.jpg)">
+                        <img src="images/projetos/wiki/cadastro_editora.jpg" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Cadastro de Editora</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/index.js"></script>
+    </section>
+    <!--Fim galeria-->
+    <!-- Área de Contato -->
+    <section>
+        <div id="contact" class="text-center container-fluid bg-grey" role="contact">
+            <div class="jumbotron container" style="background-color: #4f0000; ">
+                <h2 class="text-center lead" style="color:#fff">CONTATO</h2>
+                <div class="row">
+                    <dd class="col-sm-6">
+                        <dl>
+                            <p class="lead">Caio Alberto Fernandes</p>
+                        </dl>
+                        <dl>
+                            <p class="lead"><span class="glyphicon glyphicon-map-marker"></span> São Paulo, SP</p>
+                        </dl>
+                        <dl>
+                            <p class="lead"><span class="glyphicon glyphicon-envelope"> caio.fernandes2@fatec.sp.gov.br</span></p>
+                        </dl>
+                        <dl><a href="https://www.linkedin.com/in/caio-alberto-fernandes/"><img class="logo-image" src="images/linkedin.png"
+                                    alt="logo linkedin"><span class="lead" style="color: #fff"> Entre em Contato</span></a></dl>
+                    </dd>
+                    <dd class="col-sm-6">
+                        <dl>
+                            <p class="lead">Suzana Azevedo Portilho Pinheiro</p>
+                        </dl>
+                        <dl>
+                            <p class="lead"><span class="glyphicon glyphicon-map-marker"></span> São Paulo, SP</p>
+                        </dl>
+                        <dl>
+                            <p class="lead"><span class="glyphicon glyphicon-envelope"> suzanaoni@gmail.com</span></p>
+                        </dl>
+                    </dd>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Fim Área de Contato-->
+</body>
+
+</html>
