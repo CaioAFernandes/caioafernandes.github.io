@@ -3,13 +3,7 @@ body {
       line-height: 1.8;
       color: #818181;
 }
-h2 {
-      font-size: 24px;
-      text-transform: uppercase;
-      color: #303030;
-      font-weight: 600;
-      margin-bottom: 30px;
-}
+
 h4 {
       font-size: 19px;
       line-height: 1.375em;
@@ -30,14 +24,13 @@ h4 {
       background-color: #f4f4f4;
 }
 .logo-image{
-  width: 48px;
+  width: 50px;
   height: auto;
 }
 .logo-brand{
     margin-bottom: 0;
     grid-auto-rows: auto;
-    width: 35px;
-    height: 35px;
+    width: 50px;
     color: #4f0000;
 }
 .logo-small {
@@ -53,14 +46,16 @@ h4 {
       border: none;
       border-radius: 0;
 }
-.thumbnail img {
-      width: 600px;
-      height: 500px;
-      margin-bottom: 30px;
+.carousel-inner{
+      width: 95%;
+      height: auto;
 }
-.carousel-control.right, .carousel-control.left {
-      background-image: none;
-      color: #4f0000;
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(79,0,0)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(79,0,0)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 .carousel-indicators li {
       border-color: #4f0000;
@@ -84,16 +79,16 @@ h4 {
       transition: box-shadow 0.5s;
 }
 .panel:hover {
-      box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+      box-shadow: 5px 0px 40px  ;
 }
 .panel-footer .btn:hover {
-      border: 1px solid #3d3d5c;
+      border: 1px solid #004f4f;
       background-color: #fff !important;
       color: #4f0000;
 }
 .panel-heading {
       color: #fff !important;
-      background-color: #3d3d5c !important;
+      background-color: #4f0000 !important;
       padding: 25px;
       border-bottom: 1px solid transparent;
       border-top-left-radius: 0px;
@@ -113,12 +108,12 @@ h4 {
 }
 .panel-footer .btn {
       margin: 15px 0;
-      background-color: #3d3d5c;/*99e265 514fcc*/
+      background-color: #004f4f;/*99e265 514fcc 3d3d6c*/
       color: #fff;
 }
 .navbar {
       margin-bottom: 0;
-      background-color: #3d3d5c;/* 677987*/
+      background-color: #004f4f;/* 3d3d6c*/
       z-index: 9999;
       border: 0;
       font-size: 12px !important;
@@ -132,20 +127,28 @@ h4 {
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
       color: #fff !important;
-      background-color: #4f0000 !important;
+      background-color: #164b64 !important;
 }
 .navbar-default .navbar-toggle {
       border-color: transparent;
       color: #fff !important;
 }
-footer .glyphicon {
-      font-size: 20px;
-      margin-bottom: 20px;
-      color: #4f0000;
+.footer {
+      color: #fff;
 }
-.slideanim {visibility: hidden;}
-.slidean{visibility: unset;}
+.img-footer{
+      width: 64px;
+      height: auto;
+}
+.slideanim {
+  visibility: hidden;
+}
+.slidean{
+  visibility: unset;
+  color: #164b64;
+}
 .slide {
+      color: #164b64;
       animation-name: slide;
       -webkit-animation-name: slide;
       animation-duration: 1s;
@@ -183,7 +186,7 @@ footer .glyphicon {
   .slideanim{font-size: 120px;}
   .logo-smal{font-size: 60px}
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 790px) {
   .slidean{ font-size: 100px }
   .slideanim{ font-size: 100px }
   .col-sm-4 {

@@ -1,0 +1,116 @@
+#top{
+	margin-top: 80px
+}
+
+#navegacao{
+	font-family:cursive, monospace, sans-serif;
+}
+#body-index{
+	text-align: center;
+	font-family:cursive, monospace, sans-serif;
+	padding: 25px;
+	background:  url("https://images5.alphacoders.com/652/652753.png") no-repeat center bottom;
+	background-size: cover;
+	height: 850px;
+}
+#body-alterar{
+	text-align: center;
+	font-family: cursive, monospace, sans-serif;
+	padding: 260px;
+	background: #000 url("https://images7.alphacoders.com/562/562640.jpg") no-repeat center bottom;
+	background-size: cover;
+}
+#body-consultar {
+	text-align: center;
+	font-family: cursive, monospace, sans-serif;
+	padding: 25px;
+	background: url("https://images.alphacoders.com/380/38003.jpg") no-repeat center bottom;
+	background-size: cover;
+	height: 960px;
+}
+#body-cadastro{
+	text-align: center;
+	font-family:cursive, monospace, sans-serif;
+	padding: 25px;
+	background: #000 url("https://images7.alphacoders.com/562/562640.jpg") no-repeat center bottom;
+	background-size: cover;
+	height: 760px;
+}
+#body-login {
+    color: white;
+	background: gray;
+	padding: 26px;
+    background: #000 url("https://images4.alphacoders.com/904/904104.jpg") top center no-repeat;
+	background-size: cover;
+}
+b{
+	color: white;
+	text-align: center;
+}
+h2 {
+	color: black;
+	padding: 15px;
+	bottom: 20px;
+}
+h3{
+	color: white;
+}
+
+/*login*/
+#paglogin {
+    width: 550px;
+    padding: 100px;
+    font-family:cursive, monospace, sans-serif; 
+}
+    
+#form-login{
+    color: white;
+	background:#f0eff3;
+	padding: 26px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+    background: #000 url("https://images7.alphacoders.com/881/881074.jpg") top center no-repeat;
+}
+
+#form-consultar {
+	padding: 40px;
+	color: white;
+	font-weight: bold;
+	
+}
+#form-alterar{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#form-cadastro{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+.jumbotron{
+    background: #f0eff3;
+    box-shadow: 3px 3px 0 #450;
+   	background: #000 url("https://images7.alphacoders.com/881/881074.jpg") top center no-repeat;
+}
+
+
+/*Carrousel*/
+
+.carousel-item {
+height: 550px;
+overflow: hidden;
+width: 100%;
+margin: auto;
+
+}
+.carousel-item img {
+width: 100%;
+
+}
