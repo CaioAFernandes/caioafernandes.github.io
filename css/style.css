@@ -31,14 +31,14 @@ h4 {
     margin-bottom: 0;
     grid-auto-rows: auto;
     width: 50px;
-    color: #4f0000;
+    color: #164b64;
 }
 .logo-small {
-      color:#4f0000;
+      color:#164b64;
       font-size: 50px;
 }
 .logo {
-      color: #4f0000;
+      color: #164b64;
       font-size: 200px;
 }
 .thumbnail {
@@ -141,11 +141,12 @@ h4 {
       height: auto;
 }
 .slideanim {
-  visibility: hidden;
+      color: #164b64;
+      visibility: unset;
 }
 .slidean{
-  visibility: unset;
-  color: #164b64;
+      visibility: unset;
+      color: #164b64;
 }
 .slide {
       color: #164b64;
