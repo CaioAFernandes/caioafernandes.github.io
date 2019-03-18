@@ -10,7 +10,7 @@ h4 {
       color: #303030;
       font-weight: 400;
       margin-bottom: 30px;
-}  
+} 
 .jumbotron {
       background-color: #4f0000;
       color: #fff;
@@ -18,7 +18,7 @@ h4 {
       font-family: Times New Roman, sans-serif;
 }
 .container-fluid{
-  padding-top: 60px;
+  padding-top: 70px;
 }
 .bg-grey {
       background-color: #f4f4f4;
@@ -38,8 +38,7 @@ h4 {
       font-size: 50px;
 }
 .logo {
-      color: #164b64;
-      font-size: 200px;
+      color: #164b64
 }
 .thumbnail {
       padding: 0 0 15px 0;
@@ -184,12 +183,14 @@ h4 {
 
 @media screen and (max-width: 1260px){
   .slidean{font-size: 130px;}
-  .slideanim{font-size: 120px;}
-  .logo-smal{font-size: 60px}
+  .slideanim{font-size: 130px;}
+  .logo-smal{font-size: 60px;}
 }
-@media screen and (max-width: 790px) {
-  .slidean{ font-size: 100px }
-  .slideanim{ font-size: 100px }
+@media screen and (max-width: 1024px){
+  .slideanim.slidean{font-size: 160px}
+}
+@media screen and (min-width: 750px){
+  .slidean.slideanim{font-size: 100px;}
   .col-sm-4 {
       font-size: 18px;
       text-align: center;
@@ -206,6 +207,8 @@ h4 {
   }
 }
 @media screen and (max-width: 480px) {
+  .img-fluid{font-size: 60px }
   .slidean{display: none;}
+  .slideanim{font-size: 6rem}
   .logo {font-size: 150px;}  
 }
