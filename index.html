@@ -54,7 +54,7 @@
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
   <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-xl fixed-top" role="navigation">
       <a class="navbar-brand js-scroll-trigger" href="#myPage">
         <img class="logo-brand" src="./images/logo.png">Caio Fernandes
       </a>
@@ -70,9 +70,9 @@
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#portifolio">PORTIFÓLIO</a></li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#courses">EXTRAS</a></li>
-          <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#acquaintance">CONHECIMENTOS</a></li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#certificates">CERTIFICADOS</a></li>
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#contact">CONTATO</a></li>
         </ul>
@@ -87,11 +87,12 @@
   <!-- Sobre mim -->
   <div id="about" class="container-fluid" role="about">
     <div class="row">
-      <div class="col-sm-2">
+      <div class="col-md-auto">
         <span class="fas fa-book slidean"></span>
       </div>
       <div class="col-sm-10 text-justify">
-        <h2>Sobre</h2><br>
+        <h2>Sobre</h2>
+        <br>
         <h4>Brasileiro, São Paulo - 22 anos - Solteiro
           <p>Obtive experiência em programação, planejamento e gerenciamento de projetos através de
             desenvolvimentos dos mesmos propostos pela faculdade,
@@ -103,11 +104,12 @@
   </div>
   <div id="formation" class="container-fluid bg-grey" role="formation">
     <div class="row">
-      <div class="col-sm-2">
-        <span class="fas fa-pen-nib logo slideanim"></span>
+      <div class="col-md-auto">
+        <span class="fas fa-pen-nib slideanim"></span>
       </div>
       <div class="col-sm-8">
         <h2>Formações Acadêmica</h2>
+        <br>
         <h4>Análise e Desenvolvimento de Sistemas - Fatec - <span style="color: #8585ad">Concluindo na Fatec Zona
             Leste.</span></h4>
         <h4>Gestão e Negócio - Senac - <span style="color: #8585ad">Concluído em 2013</span></h4>
@@ -115,46 +117,128 @@
     </div>
     <br>
   </div>
-
   <div id="portifolio" class="container-fluid text-center">
     <div class="row d-flex">
       <div class="col-md-12 align-self-center">
-        <h2>Portifólio</h1>
+        <h2>Portifólio</h2>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-6">
-        <div class="card">
-          <div class="card-body">
-            <div class="card-title">
-              <h3>Wiki Mangá</h3>
+    <section class="ultimato-card ultimato-row container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title">
+                <h3>Wiki Mangá</h3>
+              </div>
+              <p class="card-subtitle mb-2 text-info">HTML, CSS, BOOSTRAP, JSP, SERVLET, SQLSERVER</p>
+              <p class="card-text">Projeto de desenvolimento Web com JEE proposto na formaçãod pela Instuição da Fatec</p>
+              <a href="./wiki.html" style="color:#fff"><button class="btn btn-primary btn-lg">Veja mais Aqui!</button></a>
             </div>
-            <p class="card-subtitle mb-2 text-info">HTML, CSS, BOOSTRAP, JSP, SERVLET, SQLSERVER</p>
-            <p class="card-text">Projeto de desenvolimento Web com JEE proposto na formaçãod pela Instuição da Fatec</p>
-            <a href="./wiki.html" style="color:#fff"><button class="btn btn-primary btn-lg">Veja mais Aqui!</button></a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title">
+                <h3>Chamados</h3>
+              </div>
+              <p class="card-subtitle mb-2 text-info">HTML, CSS, BOOSTRAP, JSP, SERVLET, SQLSERVER</p>
+              <p class="card-text">Projeto de desenvolimento realizado para a melhoria das minhas habilidades e
+                conhecimentos</p>
+              <a href="./chamados.html" style="color:#fff"><button class="btn btn-primary btn-lg">Veja mais Aqui!</button></a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-lg-6">
-        <div class="card">
-          <div class="card-body">
-            <div class="card-title">
-              <h3>Chamados</h3>
-            </div>
-            <p class="card-subtitle mb-2 text-info">HTML, CSS, BOOSTRAP, JSP, SERVLET, SQLSERVER</p>
-            <p class="card-text">Projeto de desenvolimento realizado para a melhoria das minhas habilidades e
-              conhecimentos</p>
-            <a href="./chamados.html" style="color:#fff"><button class="btn btn-primary btn-lg">Veja mais Aqui!</button></a>
-          </div>
-        </div>
-      </div>
-    </div>
+    </section>
   </div>
-  <br>
+  <div id="acquaintance" class="container-fluid bg-grey" role="acquirements">
+    <div class="row">
+      <div class="col-md-auto">
+        <span class="slideanim fas fa-quote-left"></span>
+      </div>
+      <div class="col-sm-10">
+        <h2>Conhecimentos</h2>
+        <h4 style="color: #8585ad">Uma lista das tecnologias de desenvolvimento com o qual possuo experiência.</h4>
+      </div>
+    </div>
+    <section class="ultimato-card ultimato-row container-fluid bg-grey">
+      <div class="row">
+        <div class="col-md-4 col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title">
+                <h3>Java SE</h3>
+              </div>
+              <p class="card-subtitle mb-2 text-info">Boas práticas, Conexão com Banco de Dados, Interfaces</p>
+              <p class="card-text">Integração do Sistemas com Jar's e boas práticas de programação, além do uso de padrões de projeto</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title">
+                <h3>Java EE</h3>
+              </div>
+              <p class="card-subtitle mb-2 text-info">Boas práticas, Conexão com Banco de Dados, Frameworks e API's</p>
+              <p class="card-text">Integração do Sistemas com Jar's e boas práticas de programação, além do uso de padrões de projeto, com uso de frameworks</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title">
+                <h3>Node JS</h3>
+              </div>
+              <p class="card-subtitle mb-2 text-info">Uso de Express, NPM</p>
+              <p class="card-text">Uso de NPM como PUG, SHARP, EXPRESS, MULTER</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title">
+                <h3>HTML5 / CSS3</h3>
+              </div>
+              <p class="card-subtitle mb-2 text-info">Uso de Formulários, responsividades, e Gameficação</p>
+              <p class="card-text">Uso de tag's, edição de estilo, gameficação, uso de icons</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title">
+                <h3>Boostrap</h3>
+              </div>
+              <p class="card-subtitle mb-2 text-info">Boostrap 3, Boostrap 4</p>
+              <p class="card-text">Experiência no uso de versões diferente do boostrap</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title">
+                <h3>Javascrip</h3>
+              </div>
+              <p class="card-subtitle mb-2 text-info">Boas Práticas</p>
+              <p class="card-text">Uso de funções, e boas práticas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>    
+    <br>
+  </div>
   <!-- Meus cursos-->
-  <div id="courses" class="container-fluid text-center bg-grey" role="courses">
-    <h2>Atividades Extra Curriculares</h2>
-    <div id="atividades" class="carousel slide bg-grey" data-ride="carousel">
+  <div id="certificates" class="container-fluid text-center" role="courses">
+    <h2>Certificados</h2>
+    <div id="atividades" class="carousel slide" data-ride="carousel">
       <!-- Indicadores -->
       <ol class="carousel-indicators">
         <li data-target="#atividades" data-slide-to="0" class="active"></li>
@@ -165,24 +249,24 @@
         <li data-target="#atividades" data-slide-to="5"></li>
       </ol>
       <!-- Adicionar conteudo -->
-      <div class="carousel-inner bg-grey" role="listbox">
-        <div class="carousel-item active thumbnail bg-grey">
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active thumbnail">
           <img class="img-fluid img-thumbnail" src="images/certificados/html5.jpeg" alt="certficado HTML5">
         </div>
-        <div class="carousel-item thumbnail bg-grey">
+        <div class="carousel-item thumbnail">
           <img class="img-fluid img-thumbnail" src="images/certificados/javascript.jpeg" alt="certficado JavaScript">
         </div>
-        <div class="carousel-item thumbnail bg-grey">
+        <div class="carousel-item thumbnail">
           <img class="img-fluid img-thumbnail" src="images/certificados/nodejs.jpeg" alt="certficado nodejs">
         </div>
-        <div class="carousel-item thumbnail bg-grey">
+        <div class="carousel-item thumbnail">
           <img class="img-fluid img-thumbnail" src="images/certificados/javaee.jpeg" alt="certficado javaee">
         </div>
-        <div class="carousel-item thumbnail bg-grey">
+        <div class="carousel-item thumbnail">
           <img class="img-fluid img-thumbnail" src="images/certificados/fundamentos.jpeg"
             alt="certficado de fundamentos de governança de TI">
         </div>
-        <div class="carousel-item thumbnail bg-grey">
+        <div class="carousel-item thumbnail">
           <img class="img-fluid img-thumbnail" src="images/certificados/itil.jpeg"
             alt="certficado de gestão estratégica de ITIL">
         </div>
@@ -199,169 +283,24 @@
     </div>
     <br>
   </div>
-  <div id="acquaintance" class="container-fluid" role="acquirements">
-    <div class="row">
-      <div class="col-sm-2">
-        <span class="fas fa-quote-left logo slideanim"></span>
-      </div>
-      <div class="col-sm-10">
-        <h2>Conhecimentos</h2>
-        <h4 style="color: #8585ad">Uma lista das tecnologias de desenvolvimento com o qual possuo experiência.</h4>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4 col-lg-6">
-        <div class="card">
-          <div class="card-body">
-            <div class="card-title">
-              <h3>Java SE</h3>
-            </div>
-            <p class="card-subtitle mb-2 text-info">Boas práticas, Conexão com Banco de Dados, Interfaces</p>
-            <p class="card-text">Integração do Sistemas com Jar's e boas práticas de programação, além do uso de padrões de projeto</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 col-lg-6">
-        <div class="card">
-          <div class="card-body">
-            <div class="card-title">
-              <h3>Java EE</h3>
-            </div>
-            <p class="card-subtitle mb-2 text-info">Boas práticas, Conexão com Banco de Dados, Frameworks e API's</p>
-            <p class="card-text">Integração do Sistemas com Jar's e boas práticas de programação, além do uso de padrões de projeto, com uso de frameworks</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 col-lg-6">
-        <div class="card">
-          <div class="card-body">
-            <div class="card-title">
-              <h3>Node JS</h3>
-            </div>
-            <p class="card-subtitle mb-2 text-info">Uso de Express, NPM</p>
-            <p class="card-text">Uso de NPM como PUG, SHARP, EXPRESS, MULTER</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 col-lg-6">
-        <div class="card">
-          <div class="card-body">
-            <div class="card-title">
-              <h3>HTML5 / CSS3</h3>
-            </div>
-            <p class="card-subtitle mb-2 text-info">Uso de Formulários, responsividades, e Gameficação</p>
-            <p class="card-text">Uso de tag's, edição de estilo, gameficação, uso de icons</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 col-lg-6">
-        <div class="card">
-          <div class="card-body">
-            <div class="card-title">
-              <h3>Boostrap</h3>
-            </div>
-            <p class="card-subtitle mb-2 text-info">Boostrap 3, Boostrap 4</p>
-            <p class="card-text">Experiência no uso de versões diferente do boostrap</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 col-lg-6">
-        <div class="card">
-          <div class="card-body">
-            <div class="card-title">
-              <h3>Javascrip</h3>
-            </div>
-            <p class="card-subtitle mb-2 text-info">Boas Práticas</p>
-            <p class="card-text">Uso de funções, e boas práticas</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--Área de Citações
-  <div id="citations" class="container-fluid" role="citations">
-    <h2 class="text-center">Citações de Pessoas que Admiro</h2>
-    <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-        <li data-target="#myCarousel" data-slide-to="4"></li>
-        <li data-target="#myCarousel" data-slide-to="5"></li>
-      </ol>
-      <div class="carousel-inner" role="mycitations">
-        <div class="carousel-item active">
-          <h4>
-            <strong>"Achar que o mundo não tem um criador é o mesmo que afirmar que um <br>dicionário é o resultado de
-              uma explosão numa tipografia"</strong>
-            <br><span>Benjamin Franklin</span>
-            <br><br>
-          </h4>
-        </div>
-        <div class="carousel-item">
-          <h4>
-            <strong>"Aquele que se empenha a resolver as dificuldades resolve-as antes que elas surjam!"</strong>
-            <br><span>Sun Tzu</span>
-            <br><br>
-          </h4>
-        </div>
-        <div class="carousel-item">
-          <h4>
-            <strong>"O sábio nunca diz tudo que pensa, mas pensa sobre tudo que fala"</strong>
-            <br><span>Aristóteles</span>
-            <br><br>
-          </h4>
-        </div>
-        <div class="carousel-item">
-          <h4>
-            <strong>"Mede o que é mensurável e torna mensurável o que não o é."</strong>
-            <br><span>Galileu Galilei</span>
-            <br><br>
-          </h4>
-        </div>
-        <div class="carousel-item">
-          <h4>
-            <strong>"Todo meio é ele próprio um fim."</strong>
-            <br><span>Émile Durkheim</span></h4>
-            <br>
-        </div>
-        <div class="carousel-item">
-          <h4>
-            <strong>"Tudo parece impossível, até que seja feito."</strong>
-            <br><span>Nelson Mandela</span>
-            <br><br>
-          </h4>
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Anterior</span>
-      </a>
-      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Próximo</span>
-      </a>
-    </div>
-  </div>
-  Fim das citações-->
-  <!-- Área do Rodapé -->
   <div id="contact" class="container-fluid" style="background-color: #004f4f">
     <footer class="text-center footer">
-      <div class="container">
+      <div class="jumbotrom-fluid">
         <div class="row">
           <div class="col-md-2">
-            <img class="img-fluid" src="./images/logo.png">
-          </div>
-          <div class="col-md-4">
-            <h3>Link úteis</h3>
-            <ul class="navbar-nav pl-3"></ul>
-          </div>
-          <div class="col-md-4">
-            <h3>Rede Sociais</h3>
             <div class="container">
-              <a href="https://www.linkedin.com/in/caio-alberto-fernandes/"><span class="fab fa-linkedin-in" style="color: #fff"></span></a>
-              <a href="https://github.com/caioafernandes"><span class="fab fa-github-alt" style="color: #fff"></span></a>
+              <img class="logo-footer slideanim" src="./images/logo.png">
+            </div>
+          </div>
+          <div class="col-md-10">
+            <h3 class="rede-social">Rede Sociais</h3>
+            <div class="container">
+              <a href="https://www.linkedin.com/in/caio-alberto-fernandes/">
+                <span class="rede-social fab fa-linkedin-in fa-2x"></span></a>
+              <a href="https://github.com/caioafernandes">
+                <span class="rede-social fab fa-github-alt fa-2x"></span></a>
+              <a href="https://www.instagram.com/caioalbertofernandes/">
+                <span class="rede-social fab fa-instagram fa-2x"></span></a>
             </div>
           </div>       
         </div>

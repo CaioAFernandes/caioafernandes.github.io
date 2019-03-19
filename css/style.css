@@ -21,38 +21,30 @@ h4 {
   padding-top: 70px;
 }
 .bg-grey {
-      background-color: #f4f4f4;
-}
-.logo-image{
-  width: 50px;
-  height: auto;
+  background-color: #f4f4f4;
 }
 .logo-brand{
-    margin-bottom: 0;
-    grid-auto-rows: auto;
-    width: 50px;
-    color: #164b64;
+  margin-bottom: 0;
+  grid-auto-rows: auto;
+  width: 50px;
+  color: #164b64;
 }
-.logo-small {
-      color:#164b64;
-      font-size: 50px;
-}
-.logo {
-      color: #164b64
-}
+/*.logo-small {
+  color:#164b64;
+  font-size: 50px;
+}*/
 .thumbnail {
-      padding: 0 0 15px 0;
-      border: none;
-      border-radius: 0;
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
 }
 .carousel-inner{
-      width: 95%;
-      height: auto;
+  width: 95%;
+  height: auto;
 }
 .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(79,0,0)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
-
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(79,0,0)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
@@ -135,9 +127,11 @@ h4 {
 .footer {
       color: #fff;
 }
-.img-footer{
-      width: 64px;
-      height: auto;
+.logo-footer{
+  margin-top: 0px;
+  margin-bottom: 30px
+  width: 100px;
+  height: auto;
 }
 .slideanim {
       color: #164b64;
@@ -154,6 +148,16 @@ h4 {
       animation-duration: 1s;
       -webkit-animation-duration: 1s;
       visibility: visible;
+}
+.rede-social{
+  color: #fff;
+  margin-right: 10px;
+}
+.card {
+    box-shadow: 1px 1px 1px rgb(197, 193, 193);
+}
+.card-subtitle {
+    margin-bottom: 10px;
 }
 @keyframes slide {
     0% {
@@ -175,40 +179,117 @@ h4 {
     -webkit-transform: translateY(0%);
   }
 }
-
-@media screen and (max-width: 2000px){
-  .slidean{font-size: 190px}
-  .slideanim{font-size: 190px}
-}
-
-@media screen and (max-width: 1260px){
-  .slidean{font-size: 130px;}
-  .slideanim{font-size: 130px;}
-  .logo-smal{font-size: 60px;}
-}
-@media screen and (max-width: 1024px){
-  .slideanim.slidean{font-size: 160px}
-}
-@media screen and (min-width: 750px){
-  .slidean.slideanim{font-size: 100px;}
-  .col-sm-4 {
-      font-size: 18px;
-      text-align: center;
-      margin: 10px 0;
+@media screen and (max-width: 320px){
+  .slidean{display: none;}
+  .slideanim{font-size: 20px;}
+  .card {
+    margin-top: 80px;
   }
-  .col-sm-6 {
-      font-size: 18px;
-      text-align: center;
-      margin: 10px 0;
+  .ultimato-card {
+    margin-bottom: 50px;
   }
-  .btn-lg {
-        width: 100%;
-        margin-bottom: 35px;
+  .rede-social{
+    font-size: 22px;
   }
 }
 @media screen and (max-width: 480px) {
-  .img-fluid{font-size: 60px }
   .slidean{display: none;}
   .slideanim{font-size: 6rem}
   .logo {font-size: 150px;}  
+  .logo-footer{width: 100px}
+  .card {
+    margin-top: 50px;
+  }
+  .ultimato-card {
+    margin-bottom:50px;
+  }
+  .rede-social{
+    font-size: 27px;
+  }
+}
+@media screen and (min-width: 620px) and (max-width: 780px){
+ .card {
+    margin-top: 60px;
+  }
+  .ultimato-card {
+    margin-bottom:60px;
+  } 
+  .slidean{display: none;}
+  .slideanim{font-size: 100px;}
+  .col-sm-4 {
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .col-sm-6 {
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .btn-lg {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+  .logo-footer{
+    width: 120px;
+  }
+   .rede-social{
+    font-size: 34px;
+  }
+}
+@media screen and (max-width: 1024px){
+  .slidean{font-size: 120px;}
+  .slideanim{font-size: 120px;}
+  .logo-footer{width: 180px;}
+  .card {
+    margin-top: 20px;
+  }
+  .ultimato-row {
+    margin-bottom: 20px;
+  } 
+  .ultimato-card {
+    margin-bottom: 20px;
+  }
+   .rede-social{
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 1440px){
+  .slidean{font-size: 135px;}
+  .slideanim{font-size: 135px;}
+  .logo-footer{width: 210px;}
+  .card {
+    margin-top: 3px;
+  }
+  .ultimato-row {
+    margin-bottom: 40px;
+  }
+  .ultimato-card {
+    margin-bottom:60px;
+  }
+  .rede-social{
+    font-size: 45px;
+  }
+}
+@media screen and (min-width: 2000px) and (max-width: 2580px){
+  .slidean{
+    font-size: 230px;
+  }
+  .slideanim{
+    font-size: 230px;
+  }
+  .card {
+    margin-top: 40px;
+  }
+  .ultimato-row {
+    margin-bottom:60px;
+  }
+  .ultimato-card {
+    margin-bottom:60px;
+  }
+  .rede-social{
+    margin-top: 70px;
+    padding-right: 30px;
+    font-size: 65px;
+  }
 }
