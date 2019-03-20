@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://caioafernandes.github.io/</loc>
+  <lastmod>2019-03-20T16:13:06+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://caioafernandes.github.io/wiki.html</loc>
+  <lastmod>2019-03-20T16:13:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://caioafernandes.github.io/chamados.html</loc>
+  <lastmod>2019-03-20T16:13:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://caioafernandes.github.io/index.html</loc>
+  <lastmod>2019-03-20T16:13:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caioafernandes.github.io/projetos/wiki/home.html</loc>
+  <lastmod>2019-03-20T16:13:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caioafernandes.github.io/projetos/wiki/register-manga.html</loc>
+  <lastmod>2019-03-20T16:13:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://caioafernandes.github.io/projetos/wiki/register-editor.html</loc>
+  <lastmod>2019-03-20T16:13:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://caioafernandes.github.io/projetos/wiki/register-author.html</loc>
+  <lastmod>2019-03-20T16:13:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://caioafernandes.github.io/projetos/wiki/query-manga.html</loc>
+  <lastmod>2019-03-20T16:13:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://caioafernandes.github.io/projetos/wiki/query-editor.html</loc>
+  <lastmod>2019-03-20T16:13:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://caioafernandes.github.io/projetos/wiki/query-author.html</loc>
+  <lastmod>2019-03-20T16:13:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://caioafernandes.github.io/projetos/wiki/login.html</loc>
+  <lastmod>2019-03-20T16:13:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://caioafernandes.github.io/projetos/wiki/alter-manga.html</loc>
+  <lastmod>2019-03-20T16:13:06+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://caioafernandes.github.io/projetos/wiki/alter-editor.html</loc>
+  <lastmod>2019-03-20T16:13:06+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
+</urlset>
