@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--Icons-->
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <!--Boostrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+</head>
+<body id="body-index">
+    <nav id="navegacao" class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top nav-brand-logado">
+        <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                <span class="fas fa-ellipsis-v"></span>
+            </button>
+            <a class="navbar-brand" href="./home.html">Wiki mangá</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown-register" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cadastros</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown-register">
+                        <a class="dropdown-item" href="./register-manga.html">Mangá</a>    
+                        <a class="dropdown-item" href="./register-editor.html">Editora</a>    
+                        <a class="dropdown-item" href="./register-author.html">Autor</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown-query" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Consultas</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown-query">
+                        <a class="dropdown-item" href="./query-manga.html">Mangá</a>    
+                        <a class="dropdown-item" href="./query-editor.html">Editora</a>    
+                        <a class="dropdown-item" href="./query-author.html">Autor</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./login.html">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+	<div class="container-fluid" style="margin-top: -200px">
+		<h2>
+			<b>Alterar Mangá</b>
+		</h2>
+	</div>
+	<div class="row">
+		<div class="col-lg-12">
+			<h3 class="alert alert-primary"><%=sessao.getAttribute("msg")%></h3>
+		</div>
+	</div>
+	<form id="form-cadastro" action="./MangaController" method="post">
+		<div class="row">
+			<div class="container-fluid col-sm-6">
+				<div class="form-group ">
+					<label for="inputTitulo"><b>ID</b></label> <input name="id"
+						type="text" class="form-control" value="<%=m.getId()%>" readonly>
+				</div>
+				<div class="form-group ">
+					<label for="inputTitulo"><b>Título</b></label> <input name="titulo"
+						type="text" class="form-control" id="inputTitulo"
+						value="<%=m.getTitulo()%>">
+				</div>
+				<div class="form-group ">
+					<label for="inputGenero"><b>Gênero</b></label> <input name="genero"
+						type="text" class="form-control" id="inputGenero"
+						value="<%=m.getGenero()%>">
+				</div>
+
+				<div class="form-group ">
+					<label for="inputAutor"><b>Autor</b></label> <select name="autor"
+						id="inputAutor" class="form-control">
+						<option selected value="0">Lorem Ipsum</option>
+						<option value="1">Lorem Ipsum</option>
+					</select>
+				</div>
+				<div class="form-group ">
+					<label id="campo" for="inputEditora"><b>Editora</b></label> <select
+						name="editora" id="inputEditora" class="form-control">
+						<option selected value="0">0</option>
+						<option value="1">Lorem Ipsum</option>
+					</select>
+				</div>
+				<div class="form-group ">
+					<label for="inputVolume"><b>Volume</b></label> <input type="number"
+						class="form-control" name="volume" min="1"
+						value="0">
+				</div>
+			</div>
+			<div class="container-fluid col-sm-6">
+				<div class="form-group">
+					<label for="inputlancamento"><b>Data de Lançamento</b></label> <input
+						name="data" type="text" class="form-control" id="inputlancamento"
+						value="1">
+				</div>
+				<div class="form-group ">
+					<label for="inputState"><b>Status</b></label> <select name="status"
+						id="inputStatus" class="form-control">
+						<option selected><%=m.getStatus()%></option>
+						<option>Em Andamento</option>
+						<option>Completo</option>
+						<option>Hiatus</option>
+						<option>Abandonado</option>
+					</select>
+				</div>
+				<div class="form-group ">
+					<label for="inputLink"><b>Link</b></label> <input name="link"
+						type="url" class="form-control" id="inputlink"
+						value="#">
+				</div>
+			</div>
+		</div>
+		<button type="submit" class="btn btn-primary btn-default">Alterar</button>
+	</form>
+</body>
+</html>
