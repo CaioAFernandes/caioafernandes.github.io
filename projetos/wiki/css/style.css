@@ -1,7 +1,6 @@
 #top{
 	margin-top: 80px
 }
-
 #navegacao{
 	font-family:cursive, monospace, sans-serif;
 }
@@ -77,7 +76,6 @@ h3{
 	padding: 40px;
 	color: white;
 	font-weight: bold;
-	
 }
 #form-alterar{
 	color: white;
@@ -100,17 +98,33 @@ h3{
    	background: #000 url("https://images7.alphacoders.com/881/881074.jpg") top center no-repeat;
 }
 
-
 /*Carrousel*/
-
 .carousel-item {
 height: 550px;
 overflow: hidden;
 width: 100%;
 margin: auto;
-
 }
 .carousel-item img {
 width: 100%;
+}
 
+@media screen and (max-width: 609px){
+	.navbar-brand{
+		padding-left: 175px
+	}
+}
+@media screen and (max-width: 425px){
+	.navbar-brand{
+		padding-left: 86px
+	}
+}
+@media screen and (max-width: 375px){
+	.navbar-brand{
+		padding-left: 65px;
+	}
+}
+@media screen and (max-width: 320px){
+	.navbar-brand{
+		padding-left: 43px;
 }

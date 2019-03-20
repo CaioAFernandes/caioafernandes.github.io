@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--Icons-->
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <!--Boostrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+</head>
+<body id="body-cadastro" style="height: 1000px">
+	<nav id="navegacao" class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top nav-brand-logado">
+        <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                <span class="fas fa-ellipsis-v"></span>
+            </button>
+            <a class="navbar-brand" href="./home.html">Wiki mangá</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown-register" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cadastros</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown-register">
+                        <a class="dropdown-item" href="./register-manga.html">Mangá</a>    
+                        <a class="dropdown-item" href="./register-editor.html">Editora</a>    
+                        <a class="dropdown-item" href="./register-author.html">Autor</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown-query" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Consultas</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown-query">
+                        <a class="dropdown-item" href="./query-manga.html">Mangá</a>    
+                        <a class="dropdown-item" href="./query-editor.html">Editora</a>    
+                        <a class="dropdown-item" href="./query-author.html">Autor</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./login.html">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+	<div class="container-fluid" style="margin-top: 80px">
+		<h2>
+			<b>Cadastro de Autor</b>
+		</h2>
+	</div>
+	<form id="form-cadastro" method="POST" action="./AutorController">
+		<div class="row">
+			<div class="form-group col-md-8">
+				<label for="inputNome" style="color: white">Nome</label> 
+				<input type="text" name="nome" class="form-control" id="inputNome">
+			</div>
+			<div class="form-group col-md-8">
+				<label></label>
+				<button id="submit" type="submit" class="btn btn-primary btn-default">Cadastrar</button>
+			</div>
+		</div>
+	</form>
+</body>
+</html>
