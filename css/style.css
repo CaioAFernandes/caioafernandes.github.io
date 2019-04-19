@@ -3,7 +3,6 @@ body {
       line-height: 1.8;
       color: #818181;
 }
-
 h4 {
       font-size: 19px;
       line-height: 1.375em;
@@ -127,10 +126,14 @@ h4 {
 .footer {
       color: #fff;
 }
+.myimage{
+  resize: all;
+  min-width: 75px;
+  max-width: 275px;
+}
 .logo-footer{
   margin-top: 0px;
   margin-bottom: 30px
-  width: 100px;
   height: auto;
 }
 .slideanim {
@@ -159,6 +162,20 @@ h4 {
 .card-subtitle {
     margin-bottom: 10px;
 }
+:root {
+  --primary-color: #302AE6;
+  --secondary-color: #536390;
+  --font-color: #424242;
+  --bg-color: #fff;
+  --heading-color: #292922;
+}
+[dark-theme="dark"]{
+  --primary-color: #9A97F3;
+  --secondary-color: #818cab;
+  --font-color: #e1e1ff;
+  --bg-color: #161625;
+  --heading-color: #818cab;
+}
 @keyframes slide {
     0% {
       opacity: 0;
@@ -179,43 +196,79 @@ h4 {
     -webkit-transform: translateY(0%);
   }
 }
-@media screen and (max-width: 320px){
-  .slidean{display: none;}
-  .slideanim{font-size: 20px;}
+@media screen and (max-width: 2000px){
+  .slidean{
+    font-size: 230px;
+  }
+  .slideanim{
+    font-size: 110px;
+  }
+  .logo-footer{
+    width: 330px;
+  }
   .card {
-    margin-top: 80px;
+    margin-top: 40px;
+  }
+  .ultimato-row {
+    margin-bottom:60px;
   }
   .ultimato-card {
-    margin-bottom: 50px;
+    margin-bottom:60px;
   }
   .rede-social{
-    font-size: 22px;
+    margin-top: 70px;
+    padding-right: 30px;
+    font-size: 65px;
   }
 }
-@media screen and (max-width: 480px) {
-  .slidean{display: none;}
-  .slideanim{font-size: 6rem}
-  .logo {font-size: 150px;}  
-  .logo-footer{width: 100px}
+@media screen and (max-width: 1440px){
+  /*.slidean{font-size: 135px;}*/
+  .slideanim{font-size: 135px;}
+  .logo-footer{width: 180px;}
   .card {
-    margin-top: 50px;
+    margin-top: 20px;
+  }
+  .ultimato-row {
+    margin-bottom: 40px;
   }
   .ultimato-card {
-    margin-bottom:50px;
+    margin-bottom:60px;
   }
   .rede-social{
-    font-size: 27px;
+    font-size: 45px;
+  }
+  .myimage{
+    position: sticky;
+    page-break-before: all;  
+    width: 185px;
+  }
+}
+@media screen and (max-width: 1024px){
+  .slidean{font-size: 120px;}
+  .slideanim{font-size: 120px;}
+  .logo-footer{width: 180px;}
+  .card {
+    margin-top: 20px;
+  }
+  .ultimato-row {
+    margin-bottom: 20px;
+  } 
+  .ultimato-card {
+    margin-bottom: 20px;
+  }
+  .rede-social{
+    font-size: 35px;
   }
 }
 @media screen and (min-width: 620px) and (max-width: 780px){
- .card {
+  /*.slidean{display: none;}*/
+  .slideanim{font-size: 120px;}
+  .card {
     margin-top: 60px;
   }
   .ultimato-card {
     margin-bottom:60px;
   } 
-  .slidean{display: none;}
-  .slideanim{font-size: 100px;}
   .col-sm-4 {
     font-size: 18px;
     text-align: center;
@@ -233,63 +286,35 @@ h4 {
   .logo-footer{
     width: 120px;
   }
-   .rede-social{
+  .rede-social{
     font-size: 34px;
   }
 }
-@media screen and (max-width: 1024px){
-  .slidean{font-size: 120px;}
-  .slideanim{font-size: 120px;}
-  .logo-footer{width: 180px;}
+@media screen and (max-width: 480px) {
+  .slidean{display: none;}
+  .slideanim{font-size: 6rem}
+  .logo {font-size: 150px;}  
+  .logo-footer{width: 100px}
   .card {
-    margin-top: 20px;
-  }
-  .ultimato-row {
-    margin-bottom: 20px;
-  } 
-  .ultimato-card {
-    margin-bottom: 20px;
-  }
-   .rede-social{
-    font-size: 35px;
-  }
-}
-@media screen and (max-width: 1440px){
-  .slidean{font-size: 135px;}
-  .slideanim{font-size: 135px;}
-  .logo-footer{width: 210px;}
-  .card {
-    margin-top: 20px;
-  }
-  .ultimato-row {
-    margin-bottom: 40px;
+    margin-top: 50px;
   }
   .ultimato-card {
-    margin-bottom:60px;
+    margin-bottom:50px;
   }
   .rede-social{
-    font-size: 45px;
+    font-size: 27px;
   }
 }
-@media screen and (min-width: 2000px) and (max-width: 2580px){
-  .slidean{
-    font-size: 230px;
-  }
-  .slideanim{
-    font-size: 230px;
-  }
+@media screen and (max-width: 320px){
+  .slidean{display: none;}
+  .slideanim{font-size: 20px;}
   .card {
-    margin-top: 40px;
-  }
-  .ultimato-row {
-    margin-bottom:60px;
+    margin-top: 80px;
   }
   .ultimato-card {
-    margin-bottom:60px;
+    margin-bottom: 50px;
   }
   .rede-social{
-    margin-top: 70px;
-    padding-right: 30px;
-    font-size: 65px;
+    font-size: 22px;
   }
 }
