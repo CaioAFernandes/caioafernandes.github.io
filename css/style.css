@@ -154,7 +154,7 @@ h4 {
 }
 .rede-social{
   color: #fff;
-  margin-right: 10px;
+  page-break-after: 20px;
 }
 .card {
     box-shadow: 1px 1px 1px rgb(197, 193, 193);
@@ -216,8 +216,6 @@ h4 {
     margin-bottom:60px;
   }
   .rede-social{
-    margin-top: 70px;
-    padding-right: 30px;
     font-size: 65px;
   }
 }
