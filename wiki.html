@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Portifólio - Wiki Mangá</title>
     <meta charset="utf-8">
@@ -8,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Concluindo Análise e Desenvolvimento de Sistemas na Fatec Zona Leste" />
     <meta name="keywords"
-        content="Desenvolvedor, Caio, Caio Fernandes, Caio Alberto Fernandes, Caio Alberto, Curriculum" />
+    content="Desenvolvedor, Caio, Caio Fernandes, Caio Alberto Fernandes, Caio Alberto, Curriculum" />
     <meta name="author" content="Caio Alberto Fernandes" />
     <meta name="icon" href="images/logo.ico" />
     <!--  Tags for redes socials -->
@@ -52,7 +51,6 @@
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <script src="js/scripty.js" type="text/javascript"></script>
 </head>
-
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
     <div class="container-fluid">
         <nav class="navbar navbar-expand-sm fixed-top">
@@ -64,10 +62,18 @@
             </button>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#about">SOBRE</a></li>
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#simulator">PREVIEW</a></li>
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#about">SOBRE</a></li>
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#simulator">PREVIEW</a></li>
+                <li class="nav-link mx-0 mx-lg-1">
+                    <div class="wrapper">
+                      <input type="checkbox" name="" id="switch">
+                      <label for="switch" class="switch-label">
+                          <div class="toggle"></div>
+                      </label>
+                    </div>
+                </li>
                 </ul>
             </div>
         </nav>
@@ -92,22 +98,22 @@
                         <h4 class="card-subtitle">Sistema criado para gerenciar o armazenamento da localização e sittuação sobre mangás. <br>O desenvolvimento foi proposto como projeto na Fatec - ZL, e foi concretizado em parceria com <strong>Alicia Suemi Yoshida - Analista de Dados, Caio Alberto Fernandes - Full Stack e Suzana Azevedo Portilho Pinheiro - Front-End.</strong>.
                         </h4>
                         <hr>
-                        <h3 class="card-title">Informações Técnicas</h3>
-                        <dl class="row">
-                            <dt class="col-md-4">Estrutura</dt>
-                            <dd class="col-sm-6">Tipo</dd>
-                            <dt class="col-md-4">Liguagem de Programação</dt>
-                            <dd class="col-sm-6">JEE</dd>
-                            <dt class="col-md-4">Banco de Dados</dt>
-                            <dd class="col-sm-6">SQL Server e MySQL</dd>
-                            <dt class="col-md-4">Frameworks</dt>
-                            <dd class="col-sm-6">Bootstrap</dd>
-                            <dt class="col-md-4">Gerenciador de Versões</dt>
-                            <dd class="col-sm-6">Github</dd>
+                        <h2 class="card-title">Informações Técnicas</h2>
+                        <dl class="row d-flex">
+                            <dt class="col-md-4"><p>Estrutura</p></dt>
+                            <dd class="col-sm-6"><p>Tipo</p></dd>
+                            <dt class="col-md-4"><p>Liguagem de Programação</p></dt>
+                            <dd class="col-sm-6"><p>JEE</p></dd>
+                            <dt class="col-md-4"><p>Banco de Dados</p></dt>
+                            <dd class="col-sm-6"><p>SQL Server e MySQL</p></dd>
+                            <dt class="col-md-4"><p>Frameworks</p></dt>
+                            <dd class="col-sm-6"><p>Bootstrap</p></dd>
+                            <dt class="col-md-4"><p>Gerenciador de Versões</p></dt>
+                            <dd class="col-sm-6"><p>Github</p></dd>
                         </dl>
-                        <p>Para acessar o código fonte do projeto clique
-                            <a class="btn btn-inline-dark" href="https://github.com/CaioAFernandes/wiki-s">
-                                <span class="fab fa-github-alt"> aqui</span>
+                        <p>Para acessar o código fonte do projeto 
+                            <a class="btn btn-inline-alert" href="https://github.com/CaioAFernandes/wiki-s">
+                                <i class="fab fa-github-alt"> clique aqui</i>
                             </a>
                         </p>
                     </div>
@@ -116,66 +122,43 @@
         </div>
     </div>
     <br>
+    <script src="js/theme.js" type="text/javascript"></script>
     <!--frame-->
     <div class="container-fluid bg-grey" id="simulator">
-        <iframe id="wiki resolution" src="./projetos/wiki/home.html" width="100%" height="860rem">
-        </div>
-    <!--Fim galeria-->
-    <!-- Área de Contato -->
-    <div id="contacts" class="text-center container" role="contact">
-        <div class="jumbotron container" style="background-color: #4f0000; ">
-            <h2 class="text-center lead" style="color:#fff">CONTATO</h2>
-            <div class="row">
-                <dd class="col-sm-6">
-                    <dl>
-                        <p class="lead">Caio Alberto Fernandes</p>
-                    </dl>
-                    <dl>
-                        <p class="lead"><span class="glyphicon glyphicon-map-marker"></span> São Paulo, SP</p>
-                    </dl>
-                    <dl>
-                        <p class="lead"><span class="glyphicon glyphicon-envelope">
-                                caio.fernandes2@fatec.sp.gov.br</span></p>
-                    </dl>
-                    <dl><a href="https://www.linkedin.com/in/caio-alberto-fernandes/"><img class="logo-image"
-                                src="images/linkedin.png" alt="logo linkedin"><span class="lead"
-                                style="color: #fff"> Entre em Contato</span></a></dl>
-                </dd>
-                <dd class="col-sm-6">
-                    <dl>
-                        <p class="lead">Suzana Azevedo Portilho Pinheiro</p>
-                    </dl>
-                    <dl>
-                        <p class="lead"><span class="glyphicon glyphicon-map-marker"></span> São Paulo, SP</p>
-                    </dl>
-                    <dl>
-                        <p class="lead"><span class="glyphicon glyphicon-envelope"> suzanaoni@gmail.com</span></p>
-                    </dl>
-                </dd>
-            </div>
-        </div>
+        <iframe id="wiki resolution" src="./projetos/wiki/home.html" width="100%" height="860rem"></iframe>
     </div>
+    <!--Fim galeria-->
     <div id="myRodape" class="container-fluid" style="background-color: #004f4f">
-    <footer class="text-center footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-2">
-            <img class="img-fluid" src="./images/logo.png">
-          </div>
-          <div class="col-md-4">
-            <h3>Link úteis</h3>
-            <ul class="navbar-nav pl-3"></ul>
-          </div>
-          <div class="col-md-4">
-            <h3>Rede Sociais</h3>
+        <footer class="text-center footer">
             <div class="container">
-              <a href="https://www.linkedin.com/in/caio-alberto-fernandes/"><span class="fab fa-linkedin-in" style="color: #fff"></span></a>
-              <a href="https://github.com/caioafernandes"><span class="fab fa-github-alt" style="color: #fff"></span></a>
+                <div class="row">
+                    <div class="col-md-2">
+                        <img class="img-fluid" src="./images/logo.png">
+                    </div>
+                    <div class="col-md-auto">
+                        <h2 style="color: #fff">Entre em contato</h2>
+                        <div class="row">
+                            <div class="col-sm-auto">
+                                <h4 style="color: #fff">Caio Alberto Fernandes</h4>
+                                <div class="container">
+                                    <p style="color: #fff"><i class="fas fa-map-marker-alt" style="color: #fff"></i>São Paulo, SP</p>
+                                    <a class="btn btn-inline-danger" href="mailto:caiofernandes2@fatec.sp.gov.br" target="_top"><i class="fas fa-at fa-2x" style="color: #fff"></i></a>
+                                    <a class="btn btn-inline-danger" href="https://www.linkedin.com/in/caio-alberto-fernandes/"><i class="fab fa-linkedin-in fa-2x" style="color: #fff"></i></a>
+                                    <a class="btn btn-inline-danger" href="https://github.com/caioafernandes"><i class="fab fa-github-alt fa-2x" style="color: #fff"></i></a>
+                                 </div>
+                            </div>
+                            <div class="col-sm-auto">
+                                <h4 style="color: #fff">Suzana Azevedo Portilho Pinheiro</h4>
+                                <div class="container">
+                                    <p style="color: #fff"><i class="fas fa-map-marker-alt" style="color: #fff"></i>São Paulo, SP</p>
+                                    <a class="btn btn-inline-danger" href="mailto:suzanaoni@gmail.com" target="_top"><i class="fas fa-at fa-2x" style="color: #fff"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>     
+                </div>
             </div>
-          </div>       
-        </div>
-      </div>
-    </footer>
-  </div>
+        </footer>
+    </div>
 </body>
 </html>

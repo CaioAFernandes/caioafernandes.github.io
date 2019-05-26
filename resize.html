@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <title>Portifólio - Resize Imagens</title>
   <meta charset="utf-8">
@@ -66,6 +65,14 @@
             <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#about">SOBRE</a></li>
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#PREVIEW">PREVIEW</a></li>
+          <li class="nav-link mx-0 mx-lg-1">
+            <div class="wrapper">
+              <input type="checkbox" name="" id="switch">
+              <label for="switch" class="switch-label">
+                  <div class="toggle"></div>
+              </label>
+            </div>
+          </li>
         </ul>
       </div>
     </nav>
@@ -87,7 +94,7 @@
               <h2>Sobre</h2>
           </div>
           <div class="card-body">
-              <h4>Projeto desenvolvido com objetivo de redimensionar e disponibilizar as imagens com o tamanho corrigido para dowonload sendo composto pelas seguintes características: 
+              <h4 class="card-subtitle">Projeto desenvolvido com objetivo de redimensionar e disponibilizar as imagens com o tamanho corrigido para dowonload sendo composto pelas seguintes características: 
               <ul>
                 <li>Envio de imagens</li>
                 <li>Redisionamento das imagens</li>
@@ -97,22 +104,22 @@
             </h4>
             <h4 class="card-subtitle">Projeto desenvolvido para introdução a linguagem NodeJS e suas diversidades</h4>
             <hr>
-            <h3 class="card-title">Informações Técnicas</h3>
-            <dl class="row">
-              <dt class="col-sm-4">Estrutura</dt>
-              <dd class="col-sm-6">Tipo</dd>
+            <h2 class="card-title">Informações Técnicas</h2>
+            <dl class="row d-flex">
+              <dt class="col-sm-4"><p>Estrutura</p></dt>
+              <dd class="col-sm-6"><p>Tipo</p></dd>
 
-              <dt class="col-sm-4">Linguagem de Programação</dt>
-              <dd class="col-sm-6">NODEJS</dd>
+              <dt class="col-sm-4"><p>Linguagem de Programação</p></dt>
+              <dd class="col-sm-6"><p>NODEJS</p></dd>
                   
-              <dt class="col-sm-4">NPM's</dt>
-              <dd class="col-sm-6">PUG, SHARP, MULTER, EXPRESS</dd>
+              <dt class="col-sm-4"><p>NPM's</p></dt>
+              <dd class="col-sm-6"><p>PUG, SHARP, MULTER, EXPRESS</p></dd>
               
-              <dt class="col-sm-4">Frameworks</dt>
-              <dd class="col-sm-6">Bootstrap</dd>
+              <dt class="col-sm-4"><p>Frameworks</p></dt>
+              <dd class="col-sm-6"><p>Bootstrap</p></dd>
               
-              <dt class="col-sm-4">Gerenciador de Versões</dt>
-              <dd class="col-sm-6">Github e BitBucket</dd>
+              <dt class="col-sm-4"><p>Gerenciador de Versões</p></dt>
+              <dd class="col-sm-6"><p>Github e BitBucket</p></dd>
             </dl>
           </div>
         </div>
@@ -121,12 +128,13 @@
   </div>
   <div id="preview" class="container-fluid">
     <div class="alert alert-danger" role="alert">
-      <h4 class="alert-heading">Ops! Em Desenvolvimento</h4>
-      <p>Está página ainda está em desenvolvimento, em breve estára disponível.</p>
+      <h4 class="alert-heading">Em Desenvolvimento</h4>
+      <p style="color: #000">Está página ainda está em desenvolvimento, em breve estára disponível.</p>
       <hr>
-      <p class="mb-0">O cógigo fonte original está disponível no 
+      <p class="mb-0" style="color: #000">O cógigo fonte original está disponível no 
         <a href="https://github.com/CaioAFernandes/resize">github</a>.
       </p>
     </div>
   </div>
+  <script src="js/theme.js" type="text/javascript"></script>
  </body>
