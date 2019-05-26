@@ -95,7 +95,6 @@ img{
   resize: all;
   min-width: 75px;
   max-width: 275px;
-  opacity: .75;
 }
 i{
   color: var(--slide-color);
@@ -199,7 +198,7 @@ footer .footer{
     transition: .7s all ease;
 }
 :root {
-   --background: #faffe8;
+   --background: #fff;
   --h2-color: #303030;  
   --slide-color: #164b64;
   --font-color: #424242;
