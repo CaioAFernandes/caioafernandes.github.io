@@ -1,0 +1,66 @@
+body{
+	background-color: var(--background-color);
+}
+h1, p{
+	color: var(--font-color);
+}
+
+#switch {
+  visibility: hidden;
+}
+
+.switch-label {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s all ease;
+}
+
+.switch-label .toggle {
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: #dedede;
+    position: absolute;
+    left: 3px;
+    transition: .5s all ease;
+}
+
+.wrapper {
+    display: inline-flex;
+    padding: 0px 0px 0px 1100px;
+    justify-content: space-around;
+    align-items: stretch;
+    transition: 1s all ease;
+}
+
+#switch:checked ~ .switch-label {
+    background: #466ccc;
+    border: none;
+    transition: .5s all ease;
+}
+
+#switch:checked ~ .switch-label .toggle {
+    height: 12.5px;
+    border-radius: 25px 25px 0 0;
+    background: transparent;
+    box-shadow: 0 -6px 0 0 #fff;
+    transform: scale(0.9) translateX(75px) rotate(90deg);
+    transition: .7s all ease;
+}
+
+:root{
+  --background-color: #fff;
+  --font-color: #000;
+}
+.dark{
+  --background-color: #818181;
+  --font-color: #ffa;
+  transition: 1s all ease;
+}
