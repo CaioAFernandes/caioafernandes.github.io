@@ -5,6 +5,10 @@ h1, p{
 	color: var(--font-color);
 }
 
+.container{
+    position: absolute;
+}
+
 #switch {
   visibility: hidden;
 }
@@ -34,10 +38,12 @@ h1, p{
 
 .wrapper {
     display: inline-flex;
-    padding: 0px 0px 0px 1100px;
+    position: relative;
+    padding-left: 220px;
     justify-content: space-around;
     align-items: stretch;
     transition: 1s all ease;
+    padding-right: auto;
 }
 
 #switch:checked ~ .switch-label {
