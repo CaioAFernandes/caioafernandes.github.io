@@ -49,10 +49,11 @@
   <!--Estilo personalizado-->
   <link rel="stylesheet" type="text/css" href="css/style.css"/>
   <script src="js/scripty.js" type="text/javascript"></script>
+  <script src="js/lazy-load.js" type="text/javascript"></script>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
   <div class="container-fluid">
-    <nav class="navbar navbar-expand-xl fixed-top" role="navigation">
+    <nav class="navbar navbar-expand-xl fixed-top" aria-label="navigation">
       <a class="navbar-brand js-scroll-trigger" href="#myPage">
         <img class="logo-brand" src="./images/logo.png">Caio Fernandes
       </a>
@@ -62,17 +63,17 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#about">SOBRE</a></li>
+            <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#about" arial-label="Informações sobre mim">SOBRE</a></li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#formation">FORMAÇÕES</a></li>
+            <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#formation" aria-label="Dados sobre minhas formações">FORMAÇÕES</a></li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#portifolio">PORTIFÓLIO</a></li>
+            <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#portifolio" aria-label="Meus projetos desenvolvido para ganho de experiência">PORTIFÓLIO</a></li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#acquirements">CONHECIMENTOS</a></li>
+            <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#acquirements" aria-label="Alguns dos meus conhecimentos que ganhei com meus projetos">CONHECIMENTOS</a></li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#certificates">CERTIFICADOS</a></li>
+            <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#certificates" aria-label="Alguns dos certificados que eu possuo">CERTIFICADOS</a></li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#contact">CONTATO</a></li>
+            <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#contact" aria-label="Dados para contato">CONTATO</a></li>
           <li class="nav-link mx-0 mx-lg-1">
             <div class="wrapper">
               <input type="checkbox" name="" id="switch">
@@ -91,7 +92,7 @@
         <li class="breadcrumb-item active" aria-current="page">Home</li>
     </ol>
   </nav>
-  <div class="container-fluid" role="about" id="about">
+  <div class="container-fluid" role="Read more about" id="about">
     <div class="row d-flex">
       <div class="col-md-auto">
         <img src="./images/eu.jpg" class="img-fluid img-thumbnail rounded-circle myimage">
@@ -107,7 +108,7 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid bg-color" role="formation" id="formation">
+  <div class="container-fluid bg-color" role="Read more formation" id="formation">
     <div class="row d-flex">
       <div class="col-md-auto">
         <i class="fas fa-pen-nib slideanim"></i>
@@ -120,7 +121,7 @@
     </div>
     <br>
   </div>
-  <div class="container-fluid" role="portifolio" id="portifolio">
+  <div class="container-fluid" role="Read more portifolio" id="portifolio">
     <div class="row d-flex">
       <div class="col-md-auto">
         <i class="fas fa-code slideanim"></i>
@@ -159,7 +160,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-12">
           <div class="card">
             <div class="card-body">
               <div class="card-title">
@@ -273,32 +274,32 @@
         <li data-target="#atividades" data-slide-to="5"></li>
       </ol>
       <!-- Adicionar conteudo -->
-      <div class="carousel-inner" role="listbox">
+      <div class="carousel-inner" aria-owns="listbox">
         <div class="carousel-item active thumbnail">
-          <img class="img-fluid img-thumbnail" src="images/certificados/html5.jpeg" alt="certficado HTML5">
+          <img class="img-fluid img-thumbnail lazy" data-src="images/certificados/html5.jpeg" alt="certficado HTML5" data-srcset="images/certificados/html5.jpeg 2x, images/certificados/html5.jpeg 1x">
         </div>
         <div class="carousel-item thumbnail">
-          <img class="img-fluid img-thumbnail" src="images/certificados/javascript.jpeg" alt="certficado JavaScript">
+          <img class="img-fluid img-thumbnail lazy" data-src="images/certificados/javascript.jpeg" alt="certficado JavaScript" data-srcset="images/certificados/javascript.jpeg 2x, images/certificados/javascript.jpeg 1x">
         </div>
         <div class="carousel-item thumbnail">
-          <img class="img-fluid img-thumbnail" src="images/certificados/nodejs.jpeg" alt="certficado nodejs">
+          <img class="img-fluid img-thumbnail lazy" data-src="images/certificados/nodejs.jpeg" alt="certficado nodejs" data-srcset="images/certificados/nodejs.jpeg 2x, images/certificados/nodejs.jpeg 1x">
         </div>
         <div class="carousel-item thumbnail">
-          <img class="img-fluid img-thumbnail" src="images/certificados/javaee.jpeg" alt="certficado javaee">
+          <img class="img-fluid img-thumbnail lazy" data-src="images/certificados/javaee.jpeg" alt="certficado javaee" data-srcset="images/certificados/javaee.jpeg 2x, images/certificados/javaee.jpeg 1x">
         </div>
         <div class="carousel-item thumbnail">
-          <img class="img-fluid img-thumbnail" src="images/certificados/fundamentos.jpeg" alt="certficado de fundamentos de governança de TI">
+          <img class="img-fluid img-thumbnail lazy" data-src="images/certificados/fundamentos.jpeg" alt="certficado de fundamentos de governança de TI" data-srcset="images/certificados/fundamentos.jpeg 2x, images/certificados/fundamentos.jpeg 1x">
         </div>
         <div class="carousel-item thumbnail">
-          <img class="img-fluid img-thumbnail" src="images/certificados/itil.jpeg" alt="certficado de gestão estratégica de ITIL">
+          <img class="img-fluid img-thumbnail lazy" src="images/certificados/itil.jpeg" alt="certficado de gestão estratégica de ITIL">
         </div>
       </div>
-      <!-- Controles  do carrousel -->
-      <a class="carousel-control-prev" href="#atividades" role="button" data-slide="prev">
+      <!-- Contaria-labels  do carrousel -->
+      <a class="carousel-control-prev" href="#atividades" aria-label="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Anterior</span>
       </a>
-      <a class="carousel-control-next" href="#atividades" role="button" data-slide="next">
+      <a class="carousel-control-next" href="#atividades" aria-label="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Próximo</span>
       </a>
